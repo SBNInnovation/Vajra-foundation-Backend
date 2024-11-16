@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "success_stories",
+  "info": {
+    "singularName": "success-storie",
+    "pluralName": "success-stories",
+    "displayName": "Success-Stories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Program": {
+      "type": "string"
+    },
+    "Day": {
+      "type": "string"
+    },
+    "Month": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}
